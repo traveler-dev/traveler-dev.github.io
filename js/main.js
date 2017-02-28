@@ -2,15 +2,10 @@
  * Created by daniel on 2/22/17.
  */
 
-$(document).ready(function() {
-    $('#errorMsg').hide();
-    $('#successMsg').hide();
-});
-
 function initMap() {
     var uluru = {lat: 4.0510564, lng: 9.7678687};
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 4,
+        zoom: 10,
         center: uluru
     });
     var marker = new google.maps.Marker({
