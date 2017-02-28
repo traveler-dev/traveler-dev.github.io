@@ -414,9 +414,9 @@ body {
 }
 
 .header-menu-tags {
-  font-size: 30px;
+  font-size: 16px;
   color: #3cba54;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .call-to-action {
@@ -511,4 +511,8 @@ body {
 .null-padding {
   padding: 0;
   margin: 0;
+}
+
+.site-header {
+  font-size: 40px;
 }
